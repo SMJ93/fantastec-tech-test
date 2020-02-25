@@ -22,6 +22,11 @@ This assumes you have followed the React Native CLI getting started [guide](http
 
 ```
   cd ios && pod install
+
+  // In terminal 1
+  yarn start
+
+  // in terminal 2
   yarn ios
 ```
 
@@ -29,6 +34,10 @@ This assumes you have followed the React Native CLI getting started [guide](http
   - Note: You may need to load up an android emulator before running the app if you're using an older version of Android Studio
 
 ```
+  // In terminal 1
+  yarn start
+
+  // in terminal 2
   yarn android
 ```
 
