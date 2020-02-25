@@ -22,7 +22,9 @@ export default function LiveCommentaryItem({
       <View style={styles.minuteSection}>
         {!isFirstItem && <View style={styles.line} />}
         <View style={styles.minuteContainer}>
-          <Text type="time">{item.minute}</Text>
+          <Text type="body" bold>
+            {item.minute}
+          </Text>
         </View>
         {!isLastItem && <View style={styles.line} />}
       </View>

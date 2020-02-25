@@ -1,6 +1,10 @@
-import {StyleSheet} from 'react-native';
+import {StyleSheet, ViewStyle} from 'react-native';
 
-export default StyleSheet.create({
+interface Styles {
+  screen: ViewStyle;
+}
+
+export default StyleSheet.create<Styles>({
   screen: {
     flex: 1,
     backgroundColor: '#fff',

@@ -5,7 +5,7 @@ interface Styles {
   h1: TextStyle;
   h2: TextStyle;
   body: TextStyle;
-  time: TextStyle;
+  bold: TextStyle;
 }
 
 export default StyleSheet.create<Styles>({
@@ -13,7 +13,7 @@ export default StyleSheet.create<Styles>({
     color: '#333',
   },
   h1: {
-    fontSize: 28,
+    fontSize: 24,
     textAlign: 'center',
     fontWeight: '700',
     marginVertical: 15,
@@ -21,13 +21,12 @@ export default StyleSheet.create<Styles>({
   h2: {
     fontSize: 18,
     textAlign: 'center',
-    fontWeight: '700',
+    marginVertical: 5,
   },
   body: {
-    fontSize: 12,
+    fontSize: 14,
   },
-  time: {
-    fontSize: 12,
+  bold: {
     fontWeight: '700',
   },
 });
