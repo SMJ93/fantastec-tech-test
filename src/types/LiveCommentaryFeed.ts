@@ -4,4 +4,13 @@ export interface LiveCommentaryFeedItem {
   message: string;
 }
 
-export type LiveCommentaryFeed = LiveCommentaryFeedItem[];
+export interface LiveCommentaryKeyMoment {
+  id: number;
+  minute: number;
+  message: string;
+}
+
+export interface LiveCommentaryFeedResponse {
+  feed: LiveCommentaryFeedItem[];
+  keyMoments: LiveCommentaryKeyMoment[];
+}

@@ -14,7 +14,7 @@ export default StyleSheet.create<Styles>({
     minHeight: 34,
   },
   minuteSection: {
-    width: 60,
+    width: 70,
     alignItems: 'center',
   },
   minuteContainer: {
@@ -28,9 +28,9 @@ export default StyleSheet.create<Styles>({
     alignItems: 'center',
   },
   messageContainer: {
-    marginHorizontal: 15,
     marginVertical: 10,
-    paddingRight: 50,
+    flex: 1,
+    paddingRight: 10,
   },
   line: {
     width: 2,

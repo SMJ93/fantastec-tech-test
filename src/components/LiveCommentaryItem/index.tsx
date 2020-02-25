@@ -1,8 +1,8 @@
 import React from 'react';
 import {View} from 'react-native';
 
-import {LiveCommentaryFeedItem} from '../../../types/LiveCommentaryFeed';
-import Text from '../../Text';
+import {LiveCommentaryFeedItem} from '../../types/LiveCommentaryFeed';
+import Text from '../Text';
 
 import styles from './styles';
 
