@@ -4,7 +4,7 @@ import {Text} from 'react-native';
 import styles from './styles';
 
 interface Props {
-  type?: 'h1' | 'h2' | 'body';
+  type?: 'h1' | 'h2' | 'body' | 'time';
   children: ReactNode;
 }
 
