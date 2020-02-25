@@ -2,6 +2,7 @@ import {StyleSheet, ViewStyle} from 'react-native';
 
 interface Styles {
   item: ViewStyle;
+  activeItem: ViewStyle;
   minuteSection: ViewStyle;
   minuteContainer: ViewStyle;
   messageContainer: ViewStyle;
@@ -12,6 +13,9 @@ export default StyleSheet.create<Styles>({
   item: {
     flexDirection: 'row',
     minHeight: 34,
+  },
+  activeItem: {
+    backgroundColor: '#D3D3D3',
   },
   minuteSection: {
     width: 70,
