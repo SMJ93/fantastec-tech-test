@@ -45,7 +45,7 @@ export default function App() {
           />
         )}
         keyExtractor={item => `${item.id}`}
-        contentInset={{bottom: keyMomentsHeight}}
+        contentContainerStyle={{paddingBottom: keyMomentsHeight}}
       />
       <KeyMoments
         keyMoments={keyMoments}

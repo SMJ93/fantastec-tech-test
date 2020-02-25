@@ -1,5 +1,9 @@
 # Fantastec tech test
 
+| iOS                   | Android                      |
+| --------------------- | ---------------------------- |
+| ![iOS](/docs/ios.gif) | ![android](docs/android.gif) |
+
 ## How to run the project locally
 
 This assumes you have followed the React Native CLI getting started [guide](https://reactnative.dev/docs/getting-started) and your machine is setup for React Native.
@@ -22,7 +26,7 @@ This assumes you have followed the React Native CLI getting started [guide](http
 ```
 
 - Run on Android
-  - You may need to load up an android emulator before running the app if you're using an older version of Android Studio
+  - Note: You may need to load up an android emulator before running the app if you're using an older version of Android Studio
 
 ```
   yarn android
